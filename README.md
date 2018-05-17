@@ -1,5 +1,5 @@
 # paragraph_node_tokens
-a Drupal module that provides a token to pull text content from a paragraph type
+a Drupal 8 module that provides a token to pull text content from a paragraph type
 
 creates the following tokens:
 
@@ -10,6 +10,7 @@ You probably want to use the second one, which trims newlines.
 
 After installing, import a single configuration for paragraph_node_tokens.settings that looks like the following:
 
+`
 paragraph_fields:
   - field_basic_page_body_content
   - field_news_item_body_content
@@ -20,6 +21,7 @@ paragraph_text_fields:
   - field_text_block_text_block
 fallback_text_fields:
   - body
+`
 
 "paragraph_fields" are the paragraph reference fields attached to your nodes
 "paragraph_text_types" is the name of the paragraph type that holds a text field
