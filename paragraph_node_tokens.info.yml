@@ -1,0 +1,6 @@
+name: 'Paragraph Node Tokens'
+type: module
+description: 'Provides token values for paragraph-based nodes'
+core: 8.x
+dependencies:
+  - token
