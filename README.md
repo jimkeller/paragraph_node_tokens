@@ -3,9 +3,10 @@ a Drupal 8 module that provides a token to pull text content from a paragraph ty
 
 creates the following tokens:
 
+```
 [node:paragraph_text:summary]
-
 [node:paragraph_text:summary:single-line]
+```
 
 You probably want to use the second one, which trims newlines. 
 
