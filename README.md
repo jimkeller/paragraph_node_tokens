@@ -26,6 +26,9 @@ fallback_text_fields:
 ```
 
 "paragraph_fields" are the paragraph reference fields attached to your nodes
+
 "paragraph_text_types" is the name of the paragraph type that holds a text field
+
 "paragraph_text_fields" Are the fields, attached to the paragraph entity, that are the actual text fields you want to pull token data
+
 "fallback_text_fields" are fields to look at if no text is found in the paragraph field
