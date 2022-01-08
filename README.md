@@ -8,9 +8,11 @@ creates the following tokens:
 [node:paragraph_text:summary:single-line]
 ```
 
-You probably want to use the second one, which trims newlines. 
+You probably want to use the second one, which trims newlines.
 
-After installing, import a single configuration for paragraph_node_tokens.settings that looks like the following:
+## Before installing the module
+
+Edit the config/install/paragraph_node_tokens.settings with the appropriate machine names:
 
 ```
 paragraph_fields:
@@ -32,3 +34,7 @@ fallback_text_fields:
 "paragraph_text_fields" Are the fields, attached to the paragraph entity, that are the actual text fields you want to pull token data
 
 "fallback_text_fields" are fields to look at if no text is found in the paragraph field
+
+## To update the module config
+
+Update config/install/paragraph_node_tokens.settings and run a drush config import, which will look similar this this: `drush cim -y --partial --source=modules/contrib/paragraph_node_tokens/config/install/`
