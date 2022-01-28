@@ -1,5 +1,5 @@
 {
-  "name": "jkeller/paragraph_node_tokens",
+  "name": "jimkeller/paragraph_node_tokens",
   "type": "drupal-module",
   "description": "Provides functionality for compiling text paragraphs into a single token.",
   "homepage": "https://github.com/jimkeller/paragraph_node_tokens",
