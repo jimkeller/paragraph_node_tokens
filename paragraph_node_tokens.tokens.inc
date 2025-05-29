@@ -62,7 +62,7 @@ function paragraph_node_tokens_tokens($type, $tokens, array $data, array $option
                     // Iterate over paragraph entities on this node
                     //
                     foreach( $paragraph_field_values as $paragraph_field_value ) {
-                      if (empty($paragraph_field_value['target_id']) {
+                      if (empty($paragraph_field_value['target_id'])) {
                          continue;
                       }
 
